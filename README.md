@@ -14,4 +14,9 @@ crimes against boolean zen
     return null;
   }
 ```
-* `if (databaseUrl == null || databaseUrl == null) {...}`
+* ```
+System.setProperty("flyway.url", databaseUrl);
+
+if (databaseUrl == null || databaseUrl == null) {...}
+```
+  * this one gets bonus points because System.setProperty throws a NPE if value OR key are null.  A++
