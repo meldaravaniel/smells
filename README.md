@@ -31,3 +31,11 @@ System.setProperty("flyway.url", databaseUrl);
 if (databaseUrl == null || someCondition || databaseUrl == null) {...}
 ```
 
+```
+/* 
+   dev level: senior. me. 
+   but there's no other way to write it; I was forced to use this API.
+   and no.  This isn't java.lang.Boolean.
+*/
+...(Boolean.builder().withValue(false).build())...
+```
