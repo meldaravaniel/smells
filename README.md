@@ -12,6 +12,10 @@ return null == entity ? null : entity;
 ```
 
 ```
+// dev level: 3 (ish?)
+return boolCondition ? true : false;
+// honestly, what is it with ternaries? why.
+```
 // dev level: architect
   if (entity != null) {
     return entity;
