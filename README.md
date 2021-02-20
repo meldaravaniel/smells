@@ -3,6 +3,24 @@ Things you shouldn't do in code.
 
 These are all real-life, production code examples I've found.
 
+## Testing
+
+```
+// dev level: senior.  Seriously, though?  WHY EVEN FEKKIN BOTHER?!?!?!?
+package com.package;
+import org.junit.Test;
+
+public class CSVUtilitiesTest {
+
+
+    @Test
+    public void test() {
+
+    }
+
+}
+```
+
 ## Cyber Boolean
 crimes against boolean zen
 
